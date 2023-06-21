@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!--BARRA DE NAVEGAÇÃO-->
+
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#home">
+        <img src="img/facundo.png" alt="bootstrap" width=110px height=40px>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="cor-link nav-link active" aria-current="page" href="#sobre">Sobre</a>
+          <a class="cor-link nav-link" href="#equipe">Equipe</a>
+          <a class="cor-link nav-link" href="#contato">Contato</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--ÁREA INICIAL-->
+
+  <div class="inicial" id="home">
+    <div class="container text-center">
+
+      <div class="row">
+        <div class="col">
+          <div class="img_1">
+            <img src="img/pngwing.com.png" alt="" width="350px">
+          </div>
+        </div>
+        <div class="col">
+
+          <div class="card w-70 mb-10 ">
+            <div class="card-body bg-dark">
+
+              <form>
+                <div class="mb-3">
+                  <div class="font">
+                    <label for="exampleInputEmail1" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <div class="font">
+                    <label for="exampleInputPassword1" class="form-label">Pergunta</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1">
+                  </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                  <div class="font">Enviar</div>
+                </button>
+
+              </form>
+            </div>
+          </div>
+          <div class="paragrafo-1">
+            <p>Somos um escritório de advocacia "full service" em Boa Viagem-CE, e estamos comprometidos com a
+              excelência na atuação em diferentes áreas do direito.<br>Podemos ajudalo em qualquer área juridica, a
+              seguir infome-se mais buscando a ramificação de seu problema juridico e observe quem de nossa equipe lhe
+              passa mais segurança de tomar a dianteira de seu caso.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--ÁREA SECUNDARIA-->
+
+  <div class="bg-dark secundaria" id="sobre">
+
+
+
+    <div class="container ">
+      <div class="row">
+        <div class="col">
+          <div class="c1">
+
+            <img src="img/8ced6218-eae5-4b39-9f99-409225339612.jfif" alt="" width="100%" height="700px">
+
+          </div>
+        </div>
+        <div class="col">
+          <div class="titulo">
+            <h3>NOSSO TRABALHO</h3>
+          </div>
+          <div class="linha">
+            <hr>
+          </div>
+          <div class="paragrafo">
+            <p>Trabalhamos com a jovem advocacia nas mais diversas plataformas digitais. Visando sempre a melhoria do
+              nosso trabalho, a virtualização do escritório nos permite o atendimento de maneira rápida e eficaz,
+              mantendo a qualidade e o profissionalismo. Nossa missão é oferecer serviços jurídicos personalizados com
+              postura humanista a fim de formar estratégias para melhor solucionar conflitos na seara judicial e
+              extrajudicial.</p>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-dark">
+      <div class="container ">
+        <div class="row">
+          <div class="col c1">
+            <div class="titulo">
+              <h3>QUEM SOMOS</h3>
+            </div>
+            <div class="linha">
+              <hr>
+            </div>
+            <div class="paragrafo">
+              <p>Mussum Ipsum, cacilds vidis litro abertis. Quem num gosta di mé, boa gentis num é.Todo mundo vê os
+                porris que eu tomo, mas ninguém vê os tombis que eu levo!Praesent malesuada urna nisi, quis volutpat
+                erat hendrerit non. Nam vulputate dapibus.Interessantiss quisso pudia ce receita de bolis, mais bolis eu
+                num gostis.
+
+                Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum.Quem num gosta di mé,
+                boa gentis num é.Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum
+                felis.Aenean aliquam molestie leo, vitae iaculis nisl.
+
+                Per aumento de cachacis, eu reclamis.Si u mundo tá muito paradis? Toma um mé que o mundo vai
+                girarzis!Suco de cevadiss deixa as pessoas mais interessantis.Mé faiz elementum girarzis, nisi eros
+                vermeio.</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="esp_img">
+              <img class="seg-img" src="img/Top 5 Firms That Can Help You to Close Your Company in Norwich.jfif" alt=""
+                width="100%" height="700px">
+              <h1> </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--ÁREA TERCEAREA-->
+
+      <div class="inicial">
+
+
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-6 offset-md-3">
+              <div class="titulo-2">
+                <h2>Áreas de atuação</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+              <div class="fundo">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+
+                  <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                          <img src="img/do-utilizador.png" alt="" width="35px"> Direito Civil
+                        </button>
+                      </h2>
+                      <div id="flush-collapseFour" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Um processo civil é uma ação judicial que envolve disputas não
+                          criminais entre indivíduos, empresas ou entidades. As partes apresentam seus argumentos,
+                          provas e documentos para buscar uma decisão justa por parte do sistema judiciário. O processo
+                          segue procedimentos legais específicos e busca resolver as questões de forma adequada, baseada
+                          nas leis aplicáveis e com a assistência de advogados especializados.</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                          <img src="img/familia.png" alt="" width="35px"> Direito Familiar
+                        </button>
+                      </h2>
+                      <div id="flush-collapseFive" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Um processo familiar é uma ação judicial que aborda questões
+                          relacionadas ao direito de família, como divórcio, guarda de crianças, pensão alimentícia e
+                          adoção. As partes envolvidas apresentam argumentos e provas, e o juiz toma decisões com base
+                          nas leis e no melhor interesse das partes. É comum buscar a assistência de advogados
+                          especializados para garantir uma representação adequada ao longo do processo, que busca
+                          resolver disputas familiares de forma justa e legal.</div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                          <img src="img/do-utilizador.png" alt="" width="35px"> Direito Trabalhista
+                        </button>
+                      </h2>
+                      <div id="flush-collapseSix" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Um processo trabalhista é uma ação judicial que trata de disputas
+                          entre empregados e empregadores, envolvendo direitos trabalhistas. As partes apresentam suas
+                          alegações e evidências, e o juiz toma uma decisão com base nas leis aplicáveis. O objetivo é
+                          garantir uma resolução justa para questões como demissões injustas, salários não pagos e
+                          condições de trabalho inadequadas, com a possibilidade de indenizações ou reintegração ao
+                          emprego. É aconselhável que o reclamante busque o apoio de um advogado especializado em
+                          direito do trabalho para representação adequada ao longo do processo.</div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                          <img src="img/algemas.png" alt="" width="35px"> Direito Criminal
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Um processo criminal é uma sequência de etapas legais que ocorrem
+                          quando uma pessoa é acusada de um crime. Inicia-se com a denúncia, seguida de investigação,
+                          apresentação de provas, argumentações, julgamento e, se condenado, aplicação de uma sentença.
+                          O objetivo é garantir um processo justo, com base em evidências, respeitando os direitos do
+                          acusado e buscando a verdade. Caso o acusado seja considerado inocente, o processo é
+                          encerrado.</div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                  <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseTree" aria-expanded="false" aria-controls="flush-collapseTree">
+                          <img src="img/aposentadoria.png" alt="" width="40px"> Direito Previdencia
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Um processo previdenciário é uma ação judicial relacionada aos
+                          direitos previdenciários e benefícios sociais, envolvendo a solicitação ou contestação de
+                          benefícios. Durante o processo, são apresentadas evidências e argumentações para sustentar o
+                          pedido do requerente, incluindo documentos, laudos médicos e provas de contribuição
+                          previdenciária. O objetivo é obter uma decisão justa e adequada por parte do juiz, levando em
+                          consideração a legislação e os regulamentos aplicáveis. É recomendável contar com a
+                          assistência de um advogado especializado nesse tipo de processo.</div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          <img src="img/apartamento.png" alt="" width="35px"> Direito Imobiliario
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Um processo imobiliário é uma ação legal que envolve disputas e
+                          questões relacionadas a propriedades e transações imobiliárias. As partes envolvidas
+                          apresentam suas alegações, evidências e documentos para buscar uma decisão justa e equitativa
+                          por parte do sistema judiciário. O objetivo é resolver conflitos e questões de propriedade de
+                          forma legal e adequada, podendo envolver diferentes procedimentos e a assistência de advogados
+                          especializados em direito imobiliário.</div>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+
+        </div>
+
+      </div>
+
+
+
+
+
+      <!--EQUIPE-->
+
+      <div class="bg-dark secundaria" id="equipe">
+
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+
+            </div>
+            <div class="col">
+              <div class="titulo_eq">
+                <h3>NOSSA EQUIPE</h3>
+              </div>
+              <div class="linha_eq">
+                <hr>
+              </div>
+            </div>
+            <div class="col">
+            </div>
+          </div>
+        </div>
+
+        <!--CARDS-->
+
+        <div class="container text-center">
+          <div class="row">
+            <div class="col">
+
+              <div class="card_adv">
+
+                <div class="card" style="width: 18rem;">
+                  <img src="img/empresario-alegre-sorrindo.jpg" class="card-img-top" alt="..." width="100px">
+                  <div class="card-body">
+                    <h5 class="card-title">Álvaro Facundo</h5>
+                    <p class="card-text">É um profissional exemplar, dedicado e ético, com ampla experiência em diversas áreas do Direito. Sua abordagem personalizada, conhecimento sólido e habilidades argumentativas convincentes o tornam uma escolha confiável para representar os interesses de seus clientes. Recomendo enfaticamente seus serviços para quem busca resultados favoráveis e representação jurídica eficiente.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col">
+
+              <div class="card_adv">
+
+                <div class="card" style="width: 18rem;">
+                  <img src="img/empresario-alegre-sorrindo.jpg" class="card-img-top" alt="..." width="100px">
+                  <div class="card-body">
+                    <h5 class="card-title">Álvaro Facundo</h5>
+                    <p class="card-text">É um profissional exemplar, dedicado e ético, com ampla experiência em diversas áreas do Direito. Sua abordagem personalizada, conhecimento sólido e habilidades argumentativas convincentes o tornam uma escolha confiável para representar os interesses de seus clientes. Recomendo enfaticamente seus serviços para quem busca resultados favoráveis e representação jurídica eficiente.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col">
+
+              <div class="card_adv">
+
+                <div class="card" style="width: 18rem;">
+                  <img src="img/empresario-alegre-sorrindo.jpg" class="card-img-top" alt="..." width="100px">
+                  <div class="card-body">
+                    <h5 class="card-title">Álvaro Facundo</h5>
+                    <p class="card-text">É um profissional exemplar, dedicado e ético, com ampla experiência em diversas áreas do Direito. Sua abordagem personalizada, conhecimento sólido e habilidades argumentativas convincentes o tornam uma escolha confiável para representar os interesses de seus clientes. Recomendo enfaticamente seus serviços para quem busca resultados favoráveis e representação jurídica eficiente.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--ÁREA DE CONTATO-->
+      <div class="bg-dark secundaria">
+        <div class="contato_area" id="contato">
+          <div class="row">
+            <div class="col-6 col-md-4"></div>
+            <div class="m col-6 col-md-4">
+              <div class="contato">
+                <div class="img_contato">
+                  <img src="img/celular.png" alt="" width="300px">
+                </div>
+                <div class="text_contato">
+                  <h2>Fale agora com um advigado especialista</h2>
+                </div>
+                <div class="bot_contato">
+                  <button type="submit" class="btn2 btn-primary">
+                    <div class="font">Envie sua mensagem</div>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 col-md-4"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Rodapé-->
+    <div class="bg-dark secundaria">
+      <div class="container-fluid">
+        <div class="rodape">
+          <div class="row">
+            <div class="col-3">
+              <h1 class="alvaro-pe">Álvaro Facundo</h1>
+              <ul>
+                <p>A Álvaro Facundo é um escritorio de advocacia onde você irá ser atendido da melhor forma
+                  possivel</p>
+                <a href=""><img src="img/twitter.png" class="redes-pe"></a><a href=""><img
+                    src="img/facebook.png" class="redes-pe"></a><a href=""><img
+                    src="img/linkedin.png" class="redes-pe"></a>
+              </ul>
+            </div>
+            <div class="col-3">
+              <h2 class="emp-pe">Empresa</h2>
+              <ul>
+                <p>Matriz: 12.345.678/0001-00. </p>
+                <p>Filial 1: 12.345.678/0002-00. </p>
+                <p>Filial 2: 12.345.678/0003-00. </p>
+              </ul>
+            </div>
+            <div class="col-3">
+              <h2 class="cont-pe">Contate-nos</h2>
+              <ul>
+                <p> <img class="img-cont-pe" src="img/marcador.png"><a class="link_pe" href=""> R.
+                    Padre Antonio, 322 - Centro, Boa Viagem - CE, 63870-000</a></p>
+                <p><img class="img-cont-pe" src="img/chamada-telefonica.png"><a href=""
+                    class="link_pe">+55 88 90000-0000</a></p>
+                <p><img class="img-cont-pe" src="img/envelope.png"><a href="" class="link_pe">
+                    ex@gmail.com</a></p>
+              </ul>
+            </div>
+            <div class="col-3">
+
+              <img class="img-pe" src="img/facundo.png">
+            </div>
+          </div>
+          <div id="copy-area">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <p>Desenvolvido por <a href="" target="_blank">Gabriel Guerreiro</a>
+                    &copy; 2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
