@@ -5,14 +5,14 @@
 
 /*FUNDO DA AREA INICIAL*/
 .bgi {
-    background-image: url(img/themis.jpeg);
+    background-image: url(themis.jpeg);
     background-size: cover;
 
 
 
 }
 .inicial{
-    background-image: url(img/gold.jpg);
+    background-image: url(gold.jpg);
     background-size: cover;
 }
 .mig_1{
@@ -113,7 +113,7 @@ h3 {
 }
 
 .card{
-    background-image: url(img/download.jfif) !important;
+    background-image: url(download.jfif) !important;
     background-size: cover;
 }
 .card_adv{
@@ -133,7 +133,7 @@ h3 {
 
 }
 .btn-cont{
-    background-image: url(img/H5\ Golden\ Silk\ Background.jfif) !important;
+    background-image: url(H5\ Golden\ Silk\ Background.jfif) !important;
     color: #212529;
 }
 
